@@ -1,0 +1,24 @@
+:root {
+  font-family: 'Aptos', 'Trebuchet MS', sans-serif;
+  color: #262d28;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  color-scheme: light;
+  --ink: #262d28;
+  --muted: #777a73;
+  --red: #a53d39;
+  --green: #557a59;
+  --line: #e9e7e1;
+}
+
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button, input, select { font: inherit; }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+::selection { color: white; background: var(--red); }
+#root { min-height: 100svh; }
+p { margin: 0; }
